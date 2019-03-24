@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />
+
+		<script>
+		        window.onload = function(){
+		         /*720代表设计师给的设计稿的宽度，你的设计稿是多少，就写多少;100代表换算比例，这里写100是
+		                           为了以后好算,比如，你测量的一个宽度是100px,就可以写为1rem,以及1px=0.01rem等等*/
+		         getRem(640,100)
+		         };
+		         window.onresize = function(){
+		         getRem(640,100)
+		         };
+		         function getRem(pwidth,prem){
+		           var html = document.getElementsByTagName("html")[0];       var oWidth =                 document.body.clientWidth || document.documentElement.clientWidth;
+		            html.style.fontSize = oWidth/pwidth*prem + "px";
+		        }
+		  </script>
+	</head>
+	<body>
+		<div class="men"></div>
+		<div class="left">
+			<figure>
+			<img src="img/thumbnail.png"/>
+				<figcaption>萌萌哒小妖精</figcaption>
+			</figure>
+			<div class="xia">
+			<p>这个家伙很懒，什么也没留下</p>
+			<ul>
+				<li><a href="#">足球现场</a></li></li>
+				<li><a href="#">足球生活</a></li></li>
+				<li><a href="#">足球美女</a></li></li>
+			</ul>
+			</div>
+		</div>
+		<header>
+			<div class="he_top"/>
+			<span><img src="img/icon.png"/></span>
+			<p class="p"><span>热点</span><span>关注</span></p>
+			</div>
+			
+			<ul class="r_ul">
+				<li><a href="#"/>足球现场</a></li>
+				<li><a href="#"/>足球生活</a></li>
+				<li><a href="#"/>足球美女</a></li>
+				
+			</ul>
+		</header>
+		<section class="rd">
+			<article>
+				<figure>
+				<span><img src="img/pic.png"/></span>
+				<figcaption>小丸子啊小丸子!</figcaption>
+				</figure>
+
+			<figure>
+			<span><img src="img/pic1.png"/></span>
+			<figcaption>萌萌哒啊小丸子</figcaption>
+			</figure>
+			
+			</article>
+			<article>
+				<figure>
+				<span><img src="img/pic3.png"/></span>
+				<figcaption>小丸子啊小丸子!</figcaption>
+				</figure>
+			<figure>
+			<span><img src="img/pic4.png"/></span>
+			<figcaption>萌萌哒啊小丸子</figcaption>
+			</figure>
+			</article>
+			<article>
+				<figure>
+				<span><img src="img/pic.png"/></span>
+				<figcaption>萌萌哒啊小丸子</figcaption>
+				</figure>
+			<figure>
+			<span><img src="img/pic1.png"/></span>
+			<figcaption>萌萌哒啊小丸子</figcaption>
+			</figure>
+			</article>
+		</section>
+		
+		
+		
+		<section class="gu">
+			<article class="one">
+				<img class="il" src="img/icon_guanzu.png"/>
+				<div>
+					<h3><p>我叫小萌</p><em>382344</em><span><img src="img/zan.png"/></span></h3>
+					<p class="t">我叫小萌我怕谁！哈哈！</p>
+				</div>
+			</article>
+			
+			<article class="mao_im">
+				<figure>
+					<span>
+						
+					</span>
+					<figcaption>
+						小丸子啊小丸子！
+					</figcaption>
+				</figure>
+			</article>
+			<article class="zui_h">
+				<img class="il" src="img/icon_guanzu.png"/>
+				<div>
+					<h3><p>我叫小萌</p><em>382344</em><span><img src="img/zan.png"/></span></h3>
+					<p class="t">我叫小萌我怕谁！哈哈！</p>
+				</div>
+			</article>
+		</section>
+		
+		
+		
+		<section class="fx">
+			<article>
+				<form name="fax" action="" method="get">
+					<input id="for" required="required" placeholder="请输入昵称" type=" search"/>
+					<input id="sub" type="submit" value="搜索" />
+				</form>
+			</article>
+			   <article></article>
+			   <article>
+				   <img class="il" src="img/icon_guanzu.png"/>
+				   <div>
+				   	<h3><p>我叫小萌</p><em><input type="submit" value="关注"/></em></h3>
+				   	<p class="f_p" >我叫小萌我怕谁！哈哈！</p>
+				   </div>
+			   </article>
+                 <article>
+				   
+				   <img class="il" src="img/icon_guanzu.png"/>
+				   <div>
+				   	<h3><p>我叫小萌</p> <em><input type="submit" value="关注"/></em></h3>
+				   	<p class="f_p" >我叫小萌我怕谁！哈哈！</p>
+				   </div>
+			   </article>
+			   <article>
+				   <ul>
+				   	<li><a href="#">足球达人</a></li>
+					<li><a href="#">足球王子</a></li>
+				   	<li><a href="#">英国足球</a></li>
+				   	<li><a href="#">最近主球1000</a></li>
+				   	<li><a href="#">哈哈足球</a></li>
+					<li><a href="#">我是足球迷</a></li>
+				  	<li class="sous"><a href="#">点击选项快捷搜索</a></li>
+				   </ul>
+			   </article>
+			   
+		</section>
+		<section class="wode">
+			<article></article>
+
+			  <article>
+							   
+							   <img class="il" src="img/icon_guanzu.png"/>
+							   <div>
+							   	<h3><p>我叫小萌</p></h3>
+							   	<p class="f_p" >我叫小萌我怕谁！哈哈！</p>
+							   </div>
+							   
+							   
+							   
+			</article>
+			
+        <ul class="r_ul">
+				<li><a href="#"/>照片(1)</a></li>
+				<li><a href="#"/>关注(3)</a></li>
+				<li><a href="#"/>粉丝(8)</a></li>
+				
+			</ul>
+			<article>
+				<img src="img/pic1.png"/>
+			</article>
+		</section >
+			
+			
+			
+			
+			
+		<section class="img">
+			
+			<article></article>
+			<article class="im_j"><img src="img/jq.png"/></article>
+			<article>
+				<form name="f2" action="" method="get">
+					<input type=" button"  value="确定剪裁" />
+					<input type=" button"  value="放弃从来" />
+
+				</form>
+			</article>
+			<article class="im_l">
+				<img src="img/jq_1.png">
+			</article>
+			<article class="tijiao">
+			<form>
+				<input type="submit" value="提交" />
+			</form>
+			</article>
+		</section>
+		
+		
+		
+		
+		<div id="hj" class="dr">
+						   <h1>
+							   <span>登录</span><em id="close"><img src="img/close.png"/></em>
+						   </h1>
+						   <form name="f1" action="" method="get">
+							   <input required="required"  type="tel" placeholder="请输入手机号"/>
+							   <input required="required" type="text" placeholder="密码"/>
+								<span class="zc">还没有账号？点击此处立即<em id="tj">注册</em></span>
+								<input  type="submit" value="提 交" />
+						   </form>
+		</div>
+		
+		<div id="tianjia" class="tianjia">
+			<h1><span id="qx">取消</span><span id="qd">确定</span></h1>
+			<form name="f1" action="" method="get">
+				<input required="required"  type="tel" placeholder="请输入手机号"/>
+				 <input required="required" type="text" placeholder="密码"/>
+				  <input type="text" value="昵称" />
+		</div>
+		<footer>
+		<figure>
+			<span class=" iconfont icon-wodeqiajuan"></span>
+			<figcaption>首页</figcaption>
+			</figure>
+		<figure>
+		<span class=" iconfont icon-wodeqiajuan"></span>
+		<figcaption>发现</figcaption>
+		</figure>
+		<figure class="teshu">
+			<img src="img/ic_3_1.png"/>
+			</figure>
+		<figure>
+			<span class=" iconfont icon-wodeqiajuan"></span>
+			<figcaption>我的</figcaption>
+			</figure>
+		<figure>
+		<span class=" iconfont icon-wodeqiajuan"></span>
+		<figcaption>退出</figcaption>
+		</figure>
+		</footer>
+		<script>
+			var spans=document.getElementsByTagName('span');
+			spans[0].onclick=function()
+			{
+		   document.getElementsByTagName('div')[1].style.display="block";
+		  
+			}
+		 document.getElementsByTagName('section')[0].onclick=function()
+		 {
+			    document.getElementsByTagName('div')[1].style.display="none";
+			 
+		 }
+		 var articles=document.getElementsByTagName('article');
+
+		spans[2].onclick=function()
+		{
+			 document.getElementsByTagName('section')[0].style.display="none";
+			 document.getElementsByTagName('section')[1].style.display="block";
+			 document.getElementsByTagName('section')[2].style.display="none";
+			 document.getElementsByTagName('ul')[1].style.display="none";
+			 document.getElementsByTagName('span')[1].style.background="#3dd067";
+			 document.getElementsByTagName('span')[2].style.background=" #64d985"
+
+			 
+		}
+		spans[1].onclick=function()
+		{
+			document.getElementsByTagName('section')[0].style.display="block";
+			document.getElementsByTagName('section')[1].style.display="none";
+			document.getElementsByTagName('ul')[1].style.display="";
+			document.getElementsByTagName('span')[1].style.background="#64d985";
+			 document.getElementsByTagName('span')[2].style.background="#3dd067"
+			 document.getElementsByTagName('section')[1].style.display="none";
+
+		}
+		var figures=document.getElementsByTagName('figure');
+		
+		figures[9].onclick=function()
+		{
+			document.getElementsByTagName('section')[0].style.display="none";
+			document.getElementsByTagName('section')[1].style.display="none";
+			document.getElementsByTagName('ul')[1].style.display="none";
+			document.getElementsByTagName('section')[2].style.display="block";
+			figures[8].style.color="#d6d6d6";
+			this.style.color="#0dc441";
+			document.getElementById('hj').style.display="block"
+                    figures[11].style.color="#d6d6d6";
+		      document.getElementsByTagName('section')[3].style.display="none";
+
+			articles[10].style.display="none";
+			document.getElementsByTagName('div')[0].style.display="block";
+			document.getElementsByTagName('p')[1].className='p';
+
+		}
+		figures[8].onclick=function()
+		{
+			document.getElementsByTagName('section')[0].style.display="block";
+			document.getElementsByTagName('section')[1].style.display="none";
+			document.getElementsByTagName('ul')[1].style.display="";
+			document.getElementsByTagName('span')[1].style.background="#64d985";
+			 document.getElementsByTagName('span')[2].style.background="#3dd067"
+			 document.getElementsByTagName('section')[1].style.display="none";
+			 document.getElementsByTagName('section')[2].style.display="none";
+			 figures[11].style.color="#d6d6d6";
+			document.getElementsByTagName('section')[3].style.display="none";
+			 figures[9].style.color="#d6d6d6";
+			 this.style.color="#0dc441";
+			 for(var i=7;i<=9;i++)
+			 {
+			 	articles[i].style.display="";
+			 }
+			 document.getElementsByTagName('p')[1].className='p';
+
+			
+			 
+		}
+	
+	document.getElementById('for').onclick=function()
+		{
+			for(var i=7;i<=9;i++)
+			{
+				articles[i].style.display="none";
+			}
+			this.value="足球";
+          articles[10].style.display="block";
+		}
+		
+		document.getElementById('close').onclick=function()
+		{
+			document.getElementsByTagName('div')[0].style.display="none";
+			document.getElementById('hj').style.display="none"
+		}
+		
+		document.getElementById('tj').onclick=function()
+		{
+			document.getElementById('hj').style.display="none";
+			
+			document.getElementsByTagName('div')[0].style.display="block";
+			document.getElementById('tianjia').style.display="block";
+		}
+		
+		document.getElementById('qx').onclick=function()
+		{
+			document.getElementById('tianjia').style.display="none";
+			document.getElementsByTagName('div')[0].style.display="none";
+
+
+		}
+		
+		document.getElementById('qd').onclick=function()
+		{
+			document.getElementById('tianjia').style.display="none";
+			document.getElementsByTagName('div')[0].style.display="none";
+
+
+		}
+		
+		figures[11].onclick=function()
+		{
+			for(var i=8;i<=10;i++)
+			{
+				figures[i].style.color="#d6d6d6";
+				
+			}
+			
+			this.style.color="#0dc441";
+			document.getElementsByTagName('section')[0].style.display="none";
+			document.getElementsByTagName('section')[1].style.display="none";
+			document.getElementsByTagName('section')[2].style.display="none";
+			document.getElementsByTagName('ul')[1].style.display="none";
+			document.getElementsByTagName('section')[3].style.display="block";
+			document.getElementsByTagName('p')[1].innerHTML="个人中心";
+		    document.getElementsByTagName('p')[1].style.marginLeft="2.0rem";
+			document.getElementsByTagName('p')[1].style.fontSize="0.3rem";
+
+		}
+			figures[12].onclick=function()
+			{
+				var a=confirm("确定退出吗");
+				if(a)
+				{
+					
+			}
+			}
+	
+		</script>
+	</body>
+</html>
